@@ -1,0 +1,135 @@
+/*
+#68d992
+#222933
+#f6faff*/
+body {
+  background: #222933;
+  color: #808792;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font: bolder;
+  margin: 80px 60px 60px;
+}
+/*the big div*/
+#text {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  font-size: x-large;
+}
+#textGr {
+  margin: 0px;
+  padding: 0px;
+  color: #1fb36e;
+}
+#textWh {
+  margin: 0px;
+  padding: 0px;
+  color: #f6faff;
+}
+#textCom {
+  margin-top: 10px;
+  padding: 0px;
+}
+#btnc {
+  display: flex;
+  align-items: left;
+  margin: 40px 0px;
+  align-items: flex-start;
+}
+#genPassBtn {
+  background-color: #68d992;
+  color: #f6faff;
+  border: 0px;
+  font-size: 24px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font: bolder;
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+#length {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  flex-direction: column;
+}
+#lengthTxt {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+#lengthTxtF {
+  margin: 0px;
+  border: 2px solid #222933;
+  padding: 0px;
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+  box-sizing: border-box;
+  font-size: 24px;
+  background-color: #121314;
+  color: #1fb36e;
+  text-align: center;
+}
+
+#results {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 35px 0px;
+}
+
+.genPassw {
+  background-color: #222427;
+  padding: 3px 25px;
+  height: 66px;
+  width: 280px;
+  text-align: center;
+  color: #1fb36e;
+}
+
+#interc {
+  display: flex;
+
+  align-items: left;
+  gap: 20px;
+}
+#content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#choise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.choise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #1fb36e;
+  border-radius: 4px;
+  background-color: #1fb36e;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked {
+  background-color: #b33d1f;
+  border-color: #b33d1f;
+}
+p {
+  margin-top: 65px;
+}
